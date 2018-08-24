@@ -10,6 +10,6 @@ PKG_SEARCH_MODULE(SDL2 REQUIRED sdl2)
 
 INCLUDE_DIRECTORIES(${SDL2_INCLUDE_DIRS} )#${SDL2IMAGE_INCLUDE_DIRS})
 
-add_executable(auto main.cpp helpers.cpp helpers.h auto.cpp auto.h)
+add_executable(auto main.cpp helpers.cpp helpers.h auto.cpp auto.h bala.cpp bala.h)
 
 target_link_libraries(auto ${SDL2_LIBRARIES} )# ${SDL2IMAGE_LIBRARIES})
